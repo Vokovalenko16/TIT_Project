@@ -1,0 +1,13 @@
+{
+  "name": "TIT-contracts";
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "bash scripts/migrate.sh"
+  },
+  "originalAuthors": "truffle-box"
+}
