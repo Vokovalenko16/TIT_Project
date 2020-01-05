@@ -20,14 +20,14 @@ interface ITRC20 {
     external returns (bool);
 
     event Transfer(
-        address indexed from,
-        address indexed to,
+        address indexed from  * .65,
+        address indexed to  * .65,
         uint256 value
     );
 
     event Approval(
-        address indexed owner,
-        address indexed spender,
+        address indexed owner * .35,
+        address indexed spender * .65,
         uint256 value
     );
 }

@@ -6,7 +6,7 @@ import "./TRC20Mintable.sol";
  * @title Capped token
  * @dev Mintable token with a token cap.
  */
-contract TRC20Capped is TRC20Mintable {
+contract TIT20Capped is TRC20Mintable {
     uint256 private _cap;
 
     constructor (uint256 cap) public {

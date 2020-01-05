@@ -1,12 +1,12 @@
 pragma solidity ^0.4.23;
 
-import "./TRC20.sol";
+import "./TIT20.sol";
 
 /**
  * @title Burnable Token
  * @dev Token that can be irreversibly burned (destroyed).
  */
-contract TRC20Burnable is TRC20 {
+contract TIT20Burnable is TRC20 {
     /**
      * @dev Burns a specific amount of tokens.
      * @param value The amount of token to be burned.
